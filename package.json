@@ -1,0 +1,41 @@
+{
+  "name": "linq-for-typescript",
+  "version": "0.0.7",
+  "description": "linq impelement for typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch":"tsc -p tsconfig.json -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlaaudrlf/Linq-for-typescript.git"
+  },
+  "keywords": [
+    "linq",
+    "typescript"
+  ],
+  "author": "mingji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rlaaudrlf/Linq-for-typescript/issues"
+  },
+  "homepage": "https://github.com/rlaaudrlf/Linq-for-typescript#readme",
+  "dependencies": {
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-autofix": "^0.0.9",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  }
+}

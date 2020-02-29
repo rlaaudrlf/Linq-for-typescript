@@ -1,0 +1,26 @@
+import { BTree } from "./src/BTree";
+import { Dictionary } from "./src/Dictionary";
+import { GUID } from "./src/GUID";
+import { LinkList, LinkNode } from "./src/LinkList";
+import { List } from "./src/List";
+import { OBJ_HASH, ObjectMarker } from "./src/ObjectMarker";
+import { Tree } from "./src/Tree";
+import LinqDB from "./src/LinqDB";
+import Quene from "./src/Quene";
+import Stack from "./src/Stack";
+export { LinqDB, List, Dictionary, Quene, Stack, ObjectMarker, OBJ_HASH, GUID, LinkList, LinkNode, Tree, BTree };
+declare const _default: {
+    LinqDB: typeof LinqDB;
+    List: typeof List;
+    Dictionary: typeof Dictionary;
+    Quene: typeof Quene;
+    Stack: typeof Stack;
+    ObjectMarker: typeof ObjectMarker;
+    OBJ_HASH: symbol;
+    GUID: typeof GUID;
+    LinkList: typeof LinkList;
+    LinkNode: typeof LinkNode;
+    Tree: typeof Tree;
+    BTree: typeof BTree;
+};
+export default _default;
